@@ -8,4 +8,5 @@ pb[((counter++))]="$(( $c+$a/$b ))"
 pb[((counter++))]="$(( $a%$b+$c ))"
 echo ${pb[@]}
 echo ${!pb[@]}
-
+array=${!pb[@]}
+echo ${array[@]}
