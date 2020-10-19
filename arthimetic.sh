@@ -1,5 +1,7 @@
 #!/bin/bash -x
-read -p "enter three inputs"a b c
+read -p "enter three inputs" a b c
 echo $a $b $c
-ans=$(($a+$b*$c))
-echo $ans
+pb1=$(( $a+$b*$c ))
+pb2=$(( $a*$b+$c ))
+echo "$pb1 $pb2"
+
